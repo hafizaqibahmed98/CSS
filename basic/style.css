@@ -1,4 +1,22 @@
-/*  #ff3368; #ecfdff; */
 h1{
     color: aqua;
 }
+
+.para {
+    color: green;
+}
+
+#btn {
+    background-color: red;
+    color: azure;
+}
+
+#btn:hover {
+    background-color: black;
+    color: azure;
+}
+
+/* a:hover {  this will not work if alone used as # has higher priority
+    background-color: black;
+    color: azure;
+} */
